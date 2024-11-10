@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Test</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tech Skill Vocational Institute</h1>
+        <h1>Test No 6</h1>
+        <div class="name-section">
+            <label for="studentName">Enter your name:</label>
+            <input style="height:40px; width: 180px;" type="text" id="studentName" placeholder="Your Name">
+        </div>
+
+        <!-- Display Student's Name -->
+        <p id="displayName"></p>
+        <div class="question">
+            <p>1. A technique that converts words into vectors is called------ ?</p>
+            <input type="radio" id="NO" name="testing" value="Word Embading">
+            <label for="6">Word Embading</label><br>
+            
+            <input type="radio" id="Yes" name="Angl" value="Tokenization">
+            <label for="4">Tokenization</label>
+            
+            
+        </div>
+        <!-- Question 2 (Yes/No using checkboxes) -->
+        <div class="question">
+            <p>2. You need to ensure that the model meets the Microsoft transparency principle for responsible AI.What should you do?</p>
+            <input type="checkbox" id="SetPrimarymetrictoaccuracy" value="Set Primary metric to accuracy.">
+            <label for="Set Primary metric to accuracy.">Set Validation type to Auto.</label><br>
+            
+            <input type="checkbox" id="EnableExplainbestmodel" value="Enable Explain best model">
+            <label for="Enable Explain best model">Enable Explain best model.</label>
+            
+        </div>
+        
+          <!-- Question 3 (Dropdown) -->
+        
+          <div class="question">
+            <p>3. You are designing an AI system that empowers everyone, including people who have hearing, visual, and other  impairments.This is an example of which Microsoft guiding principle for responsible AI?</p>
+            <input type="radio" id="Computer" name="workloadAI" value="Computer vision">
+            <label for="Computer vision">Fairness</label>
+            
+            <input type="radio" id="Computer" name="workloadAI" value="Machine Learning">
+            <label for="Machine Learning">Inclusiveness</label>
+            
+            <input type="radio" id="Computer" name="workloadAI" value="Artificial Intelligence">
+            <label for="Artificial Intelligence">Accountability</label>
+        </div>
+        <!-- Question 4 (Dropdown) -->
+        <div class="question">
+            <p>4.Provide consumer with  information and control over collection use and storage of their data.</p>
+            <select id="question2">
+                <option value="">--Select an answer--</option>
+                <option value="inclusiveness">Privacy & security</option>
+                <option value="reliability and safety">Accountability</option>
+                <option value="transparency">inclusiveness</option>
+                <option value="privacy and security">Transparency</option>
+            </select>
+        </div>
+        <div class="question">
+            <p>5.Which type of machine learning should you use to predict the number of pencil that will be sold next month??</p>
+            <select id="question5">
+                <option value="">--Select an answer--</option>
+                <option value="Privacy and security">Regression.</option>
+                <option value="Reliability and safety">Classification</option>
+                
+                <option value="Both a,b & c">Clustering</option>
+            </select>
+        </div>
+
+
+
+        <!-- Question 6 (Checkboxes) -->
+
+ <div class="question">
+    <p>6.What is the main purpose of word embading?</p>
+    <input type="radio" id=" guiding" name="train" value="VALUE1">
+    <label for=" fairness"> To classify text data into different categories</label>
+    <BR></BR>
+    <input type="radio" id="guiding" name="train" value="VALUE2">
+    <label for="inclusiveness">To predict the next word in a sequence</label>
+    <br>
+    <input type="radio" id="guiding" name="train" value="VALUE3">
+    <label for="accountability">To convert words into numerical vectors that capture their meaning</label>
+</div>
+<div class="question">
+    <p>7.An AI solution that is offered in different prices different sales territories is an example of microsoft inclusiveness principle?</p>
+    <select id="question7">
+        <option value="">--Select an answer--</option>
+        <option value="Object Detection">Yes</option>
+        
+        <option value="OCR">No</option>
+    </select>
+</div>
+
+
+
+<div class="question">
+    <p>8. Which Two statement Wrong about automated machine learning?</p>
+    <input type="checkbox" id="mic" value="Image classication">
+    <label for="Image classication">Automated machine learning provide you with ability to include custom python script in traning pipeline.</label><br>
+    
+    <input type="checkbox" id="mic" value="Identify handwritten letters">
+    <label for="Identify handwritten letters">Automated machine learning implement machine learning  solutioh without pragramming experience.</label><br>
+    
+    <input type="checkbox" id="mic" value="R">
+    <label for="R">Automated machine learning provide you with ability to visually connect  datasets and module on an interactive canvas.</label>
+    
+    
+</div>
+<div class="question">
+    <p>9.Which layer in transformer used to  show output? </p>
+    <input type="radio" id="CNN" name="AI" value="CNN">
+    <label for="CNN">Decoder</label>
+    
+    <input type="radio" id="RNN" name="AI" value="RNN">
+    <label for="RNN">Encoder</label>
+    
+    
+</div>
+
+<div class="question">
+    <p>10 you trained regression model using unlabeled data?</p>
+    <select id="question8">
+        <option value="">--Select an answer--</option>
+        <option value="fairness">Yes</option>
+        
+        <option value="inclusiveness">No</option>
+    </select>
+</div>
+<div class="question">
+    11:<p> <img src="6.png" alt=""><br>Predict the correctly negative?</p>
+      <input type="radio" id="Elevenlabs" name="image" value="Object detection">
+      <label for="Object detection">103</label>
+      
+      <input type="radio" id="Elevenlabs" name="image" value="OCR">
+      <label for="Elevenlabs">6</label>
+      <input type="radio" id="Elevenlabs" name="image" value="Face detection">
+      <label for="Elevenlabs">11</label>
+      
+      
+  </div>
+<!---new question-->
+<div class="question">
+    <p>12: Predict the False positive?</p>
+      <input type="radio" id="Elevenlbs" name="imge" value="103">
+      <label for="Object detection">103</label>
+      
+      <input type="radio" id="Elevenlbs" name="imge" value="11">
+      <label for="Elevenlabs">11</label>
+      <input type="radio" id="Elevenlbs" name="imge" value="34">
+      <label for="Elevenlabs">34</label>
+      
+      
+  </div>
+
+
+<!---new question-->
+<div class="question">
+    <p>13: Predict the true positive?</p>
+      <input type="radio" id="Elevenlbs" name="img" value="103">
+      <label for="Object detection">103</label>
+      
+      <input type="radio" id="Elevenlbs" name="img" value="6">
+      <label for="Elevenlabs">6</label>
+      <input type="radio" id="Elevenlbs" name="img" value="34">
+      <label for="Elevenlabs">34</label>
+      
+      
+  </div>
+ 
+<!---new question-->
+<div class="question">
+    <p>14: Predict the false negative?</p>
+      <input type="radio" id="Elevenlbs" name="img" value="103">
+      <label for="Object detection">103</label>
+      
+      <input type="radio" id="Elevenlbs" name="im" value="6">
+      <label for="Elevenlabs">6</label>
+      <input type="radio" id="Elevenlbs" name="im" value="11">
+      <label for="Elevenlabs">11</label>
+      
+      
+  </div>
+<div class="question">
+    <p>15.Who is this person in this group of people?</p>
+      <input type="radio" id="Detect individual objects in an image" name="images" value="Detect individual objects in an image">
+      <label for="Detect indiviual objects in an image">face identification</label><BR></BR>
+      
+      <input type="radio" id="Assign a label to each pixel in the image" name="images" value="Assign a label to each pixel in the image">
+      <label for="Assign a label to each pixel in the image">face similarity</label><BR></BR>
+     
+      
+  </div>
+  <div class="question">
+    <div class="question">
+        <p>16.What is a use case for classification?</p>
+        <input type="radio" id="Building AI systems that require no human oversight" name="At" value="Building AI systems that require no human oversight">
+        <label for="Building AI systems that require no human oversight">analyzing the contents of images and grouping images that have similar colors.</label><br>
+        
+        <input type="radio" id="standards" name="At" value="standards">
+        <label for="standards">predicting whether someone uses a bicycle to travel to work based on the distance from home to work.</label>
+        
+</div>
+<div class="question">
+    <p>17. In which two scenarios can you use speech recognition? Each correct answer presents a complete solution.</p>
+    <input type="checkbox" id="inclusiveness" value="inclusiveness">
+    <label for="inclusiveness">an in-car system that reads text messages aloud</label><br>
+    
+    <input type="checkbox" id="opinionatedness" value="opinionatedness">
+    <label for="opinionatedness">providing closed captions for recorded or live videos</label><br>
+    <input type="checkbox" id="reliability and safety" value="reliability and safety">
+    <label for="reliability and safety">creating a transcript of a telephone call or meeting.</label>
+    
+</div>
+
+<div class="question">
+    <p>18. Aliya switch on the bulb recognize intent?</p>
+    <input type="radio" id="NO" name="Angle" value="6">
+    <label for="6">Switch</label><br>
+    
+    <input type="radio" id="Yes" name="Angle" value="4">
+    <label for="4">Switch on</label>
+    
+    
+</div>
+<!--NEWQUESTION-->
+<div class="question">
+    <p>19.You have a frequently asked questions (FAQ) PDF file.
+You need to create a conversational support system based on the FAQ.
+Which service should you use?</p>
+    <input type="radio" id="NO" name="Angll" value="6">
+    <label for="6">QnA Maker</label><br>
+    
+    <input type="radio" id="Yes" name="Angll" value="4">
+    <label for="4">Text Analytics</label>
+    
+    
+</div>
+<div class="question">
+    <p>20:You are authoring a Language Understanding (LUIS) application to support a music festival.
+You want users to be able to ask questions about scheduled shows, such as: `Which act is playing on the main stage?`The question `Which act is playing on the main stage?` is an example of which type of element?</p>
+    <input type="radio" id="NO" name="Am" value="Voxel">
+    <label for="Voxel">an utterance</label><br>
+    
+    <input type="radio" id="Yes" name="Am" value="Pixel">
+    <label for="Pixel">an entity</label>
+    
+    
+</div>
+
+<button onclick="checkAnswers()">submit</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
